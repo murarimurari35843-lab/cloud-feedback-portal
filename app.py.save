@@ -1,0 +1,65 @@
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello from Flask backend running on EC2 🚀"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
+from flask import Flask
+
+app = Flask(__name__)
+yfrom flask import Flask
+
+app = Flask(__name__)
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+
+^G Help      ^O Write Out ^F Where Is  ^K Cut       ^T Execute   ^C Location
+^X Exit      ^R Read File ^\ Replace   ^U Paste     ^from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello from Flask backend running on EC2 🚀"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
+yfrom flask import Flask
+
+app = Flask(__name__)
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello from Flask backend running on EC2 🚀"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
+@app.route("/")
+def home():
+    return "Hello from Flask backend running on EC2 🚀"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello from Flask backend running on EC2 🚀"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)

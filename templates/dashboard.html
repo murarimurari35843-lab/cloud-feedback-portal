@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+
+            /* FULL SCREEN BACKGROUND IMAGE */
+            background-image: url("{{ url_for('static', filename='images/home.jpg') }}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height:100vh;
+        }
+
+        .container{
+            width:90%;
+            max-width:600px;
+            margin:40px auto;
+            background: rgba(255,255,255,0.9);
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0 0 15px rgba(0,0,0,0.3);
+        }
+
+        textarea{
+            width:100%;
+            height:90px;
+        }
+
+        button{
+            background:#007bff;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Welcome {{ email }}</h2>
+<p>Login Successful ✅</p>
+
+<a href="/">Home</a> |
+<a href="/logout">Logout</a>
+
+<hr>
+
+<h3>Submit Feedback</h3>
+
+<form action="/submit_feedback" method="POST">
+    <textarea name="message"
+              placeholder="Enter feedback"></textarea>
+    <br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<hr>
+
+<h3>Your Feedback</h3>
+
+<ul>
+{% for feedback in feedback_list %}
+    <li>
+        {{ feedback[0] }} — {{ feedback[1] }}
+    </li>
+{% endfor %}
+</ul>
+
+</div>
+
+</body>
+</html>

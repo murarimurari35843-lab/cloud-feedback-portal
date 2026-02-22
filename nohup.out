@@ -1,0 +1,38 @@
+[2026-02-21 16:41:00 +0000] [782761] [INFO] Starting gunicorn 23.0.0
+[2026-02-21 16:41:00 +0000] [782761] [INFO] Listening at: http://0.0.0.0:5000 (782761)
+[2026-02-21 16:41:00 +0000] [782761] [INFO] Using worker: sync
+[2026-02-21 16:41:00 +0000] [782762] [INFO] Booting worker with pid: 782762
+[2026-02-21 16:41:00 +0000] [782763] [INFO] Booting worker with pid: 782763
+[2026-02-21 16:41:00 +0000] [782764] [INFO] Booting worker with pid: 782764
+[2026-02-21 16:41:00 +0000] [782765] [INFO] Booting worker with pid: 782765
+[2026-02-21 17:32:00 +0000] [782761] [ERROR] Worker (pid:782762) was sent SIGHUP!
+[2026-02-21 17:32:00 +0000] [782761] [ERROR] Worker (pid:782763) was sent SIGHUP!
+[2026-02-21 17:32:00 +0000] [782761] [ERROR] Worker (pid:782764) was sent SIGHUP!
+[2026-02-21 17:32:00 +0000] [782761] [ERROR] Worker (pid:782765) was sent SIGHUP!
+[2026-02-21 17:32:00 +0000] [809676] [INFO] Booting worker with pid: 809676
+[2026-02-21 17:32:00 +0000] [809677] [INFO] Booting worker with pid: 809677
+[2026-02-21 17:32:00 +0000] [809678] [INFO] Booting worker with pid: 809678
+[2026-02-21 17:32:00 +0000] [809679] [INFO] Booting worker with pid: 809679
+[2026-02-21 17:32:00 +0000] [782761] [INFO] Handling signal: hup
+[2026-02-21 17:32:00 +0000] [782761] [INFO] Hang up: Master
+[2026-02-21 17:32:00 +0000] [809680] [INFO] Booting worker with pid: 809680
+[2026-02-21 17:32:00 +0000] [809676] [INFO] Worker exiting (pid: 809676)
+[2026-02-21 17:32:00 +0000] [809677] [INFO] Worker exiting (pid: 809677)
+[2026-02-21 17:32:00 +0000] [782761] [ERROR] Worker (pid:809676) was sent SIGTERM!
+[2026-02-21 17:32:00 +0000] [809683] [INFO] Booting worker with pid: 809683
+[2026-02-21 17:32:00 +0000] [809678] [INFO] Worker exiting (pid: 809678)
+[2026-02-21 17:32:00 +0000] [809679] [INFO] Worker exiting (pid: 809679)
+[2026-02-21 17:32:00 +0000] [809682] [INFO] Booting worker with pid: 809682
+[2026-02-21 17:32:00 +0000] [782761] [ERROR] Worker (pid:809677) was sent SIGTERM!
+[2026-02-21 17:32:00 +0000] [809681] [INFO] Booting worker with pid: 809681
+[2026-02-21 17:32:00 +0000] [782761] [ERROR] Worker (pid:809678) was sent SIGTERM!
+[2026-02-21 17:32:00 +0000] [782761] [ERROR] Worker (pid:809679) was sent SIGTERM!
+[2026-02-21 17:34:07 +0000] [809682] [WARNING] Invalid request from ip=167.94.138.184: Invalid HTTP Version: (2, 0)
+[2026-02-21 17:50:15 +0000] [809680] [INFO] Worker exiting (pid: 809680)
+[2026-02-21 17:50:15 +0000] [782761] [INFO] Handling signal: term
+[2026-02-21 17:50:15 +0000] [809681] [INFO] Worker exiting (pid: 809681)
+[2026-02-21 17:50:15 +0000] [809682] [INFO] Worker exiting (pid: 809682)
+[2026-02-21 17:50:15 +0000] [809683] [INFO] Worker exiting (pid: 809683)
+[2026-02-21 17:50:15 +0000] [782761] [ERROR] Worker (pid:809681) was sent SIGTERM!
+[2026-02-21 17:50:15 +0000] [782761] [ERROR] Worker (pid:809682) was sent SIGTERM!
+[2026-02-21 17:50:15 +0000] [782761] [INFO] Shutting down: Master
